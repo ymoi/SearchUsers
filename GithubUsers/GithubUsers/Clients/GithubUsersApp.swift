@@ -6,15 +6,16 @@
 //
 
 import SwiftUI
+import ComposableArchitecture
 
 @main
 struct GithubUsersApp: App {
-    let persistenceController = PersistenceController.shared
-
+    static let store = Store(initialState: UserListFeature.State()) {
+        UserListFeature()
+    }
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            UserListView(store: GithubUsersApp.store)
         }
     }
 }
