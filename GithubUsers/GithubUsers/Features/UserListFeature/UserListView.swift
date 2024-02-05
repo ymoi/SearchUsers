@@ -9,7 +9,6 @@ import SwiftUI
 import ComposableArchitecture
 import Kingfisher
 
-
 struct UserListView: View {
     @Bindable var store: StoreOf<UserListFeature>
     
