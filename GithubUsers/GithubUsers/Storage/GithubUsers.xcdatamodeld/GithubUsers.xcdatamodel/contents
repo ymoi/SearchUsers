@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23C64" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ItemListMO" representedClassName="ItemListMO" syncable="YES" codeGenerationType="class">
+        <attribute name="query" attributeType="String" defaultValueString=""/>
+        <attribute name="totalCount" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="items" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ItemMO" inverseName="itemList" inverseEntity="ItemMO"/>
+    </entity>
+    <entity name="ItemMO" representedClassName="ItemMO" syncable="YES" codeGenerationType="class">
+        <attribute name="bio" optional="YES" attributeType="String"/>
+        <attribute name="company" optional="YES" attributeType="String"/>
+        <attribute name="followers" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="following" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="hasDetails" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="id" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="imageLink" attributeType="String" defaultValueString=""/>
+        <attribute name="location" optional="YES" attributeType="String"/>
+        <attribute name="login" attributeType="String" defaultValueString=""/>
+        <attribute name="repos" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="itemList" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ItemListMO" inverseName="items" inverseEntity="ItemListMO"/>
+    </entity>
+</model>
