@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA95F60F2B6D964D00284FC9 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DA95F60E2B6D964D00284FC9 /* Alamofire */; };
+		DABFDB072B7098BA00CD9852 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABFDB062B7098BA00CD9852 /* Models.swift */; };
+		DABFDB092B709AA900CD9852 /* AppFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABFDB082B709AA900CD9852 /* AppFeatureTests.swift */; };
+		DABFDB0B2B709E4C00CD9852 /* UserListFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABFDB0A2B709E4C00CD9852 /* UserListFeatureTests.swift */; };
+		DABFDB0D2B70AE7A00CD9852 /* UserDetailsFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABFDB0C2B70AE7A00CD9852 /* UserDetailsFeatureTests.swift */; };
 		DAEF96C62B6B970B004AF890 /* GithubUsersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEF96C52B6B970B004AF890 /* GithubUsersApp.swift */; };
-		DAEF96C82B6B970B004AF890 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEF96C72B6B970B004AF890 /* ContentView.swift */; };
 		DAEF96CA2B6B970D004AF890 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAEF96C92B6B970D004AF890 /* Assets.xcassets */; };
 		DAEF96CD2B6B970D004AF890 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAEF96CC2B6B970D004AF890 /* Preview Assets.xcassets */; };
-		DAEF96CF2B6B970D004AF890 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEF96CE2B6B970D004AF890 /* Persistence.swift */; };
+		DAEF96CF2B6B970D004AF890 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEF96CE2B6B970D004AF890 /* CoreDataStack.swift */; };
 		DAEF96D22B6B970D004AF890 /* GithubUsers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DAEF96D02B6B970D004AF890 /* GithubUsers.xcdatamodeld */; };
-		DAEF96DC2B6B970E004AF890 /* GithubUsersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEF96DB2B6B970E004AF890 /* GithubUsersTests.swift */; };
 		DAEF96E62B6B970E004AF890 /* GithubUsersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEF96E52B6B970E004AF890 /* GithubUsersUITests.swift */; };
 		DAEF96E82B6B970E004AF890 /* GithubUsersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEF96E72B6B970E004AF890 /* GithubUsersUITestsLaunchTests.swift */; };
 		DAEF96F62B6B9B03004AF890 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = DAEF96F52B6B9B03004AF890 /* ComposableArchitecture */; };
 		DAEF97002B6B9F63004AF890 /* UserListFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEF96FF2B6B9F63004AF890 /* UserListFeature.swift */; };
 		DAEF97022B6B9F70004AF890 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEF97012B6B9F70004AF890 /* UserListView.swift */; };
+		DAEF97042B6BAA28004AF890 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEF97032B6BAA28004AF890 /* APIClient.swift */; };
+		DAEF97062B6C2AB4004AF890 /* CoreDataClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEF97052B6C2AB4004AF890 /* CoreDataClient.swift */; };
+		DAEF970A2B6CF346004AF890 /* UserDetailsFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEF97092B6CF346004AF890 /* UserDetailsFeature.swift */; };
+		DAF6A8AD2B6FAE7700D47823 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DAF6A8AC2B6FAE7700D47823 /* Kingfisher */; };
+		DAF6A8B02B70147F00D47823 /* AppFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF6A8AF2B70147F00D47823 /* AppFeature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,20 +47,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DABFDB062B7098BA00CD9852 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		DABFDB082B709AA900CD9852 /* AppFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeatureTests.swift; sourceTree = "<group>"; };
+		DABFDB0A2B709E4C00CD9852 /* UserListFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListFeatureTests.swift; sourceTree = "<group>"; };
+		DABFDB0C2B70AE7A00CD9852 /* UserDetailsFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsFeatureTests.swift; sourceTree = "<group>"; };
 		DAEF96C22B6B970B004AF890 /* GithubUsers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubUsers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAEF96C52B6B970B004AF890 /* GithubUsersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubUsersApp.swift; sourceTree = "<group>"; };
-		DAEF96C72B6B970B004AF890 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DAEF96C92B6B970D004AF890 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAEF96CC2B6B970D004AF890 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DAEF96CE2B6B970D004AF890 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		DAEF96CE2B6B970D004AF890 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		DAEF96D12B6B970D004AF890 /* GithubUsers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GithubUsers.xcdatamodel; sourceTree = "<group>"; };
 		DAEF96D72B6B970E004AF890 /* GithubUsersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubUsersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAEF96DB2B6B970E004AF890 /* GithubUsersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubUsersTests.swift; sourceTree = "<group>"; };
 		DAEF96E12B6B970E004AF890 /* GithubUsersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubUsersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAEF96E52B6B970E004AF890 /* GithubUsersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubUsersUITests.swift; sourceTree = "<group>"; };
 		DAEF96E72B6B970E004AF890 /* GithubUsersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubUsersUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DAEF96FF2B6B9F63004AF890 /* UserListFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListFeature.swift; sourceTree = "<group>"; };
 		DAEF97012B6B9F70004AF890 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		DAEF97032B6BAA28004AF890 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		DAEF97052B6C2AB4004AF890 /* CoreDataClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataClient.swift; sourceTree = "<group>"; };
+		DAEF97092B6CF346004AF890 /* UserDetailsFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsFeature.swift; sourceTree = "<group>"; };
+		DAF6A8AF2B70147F00D47823 /* AppFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +74,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAF6A8AD2B6FAE7700D47823 /* Kingfisher in Frameworks */,
 				DAEF96F62B6B9B03004AF890 /* ComposableArchitecture in Frameworks */,
+				DA95F60F2B6D964D00284FC9 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,8 +120,11 @@
 		DAEF96C42B6B970B004AF890 /* GithubUsers */ = {
 			isa = PBXGroup;
 			children = (
+				DAEF96C52B6B970B004AF890 /* GithubUsersApp.swift */,
+				DABFDB062B7098BA00CD9852 /* Models.swift */,
+				DAEF96FA2B6B9EA5004AF890 /* Features */,
 				DAEF96F72B6B9E82004AF890 /* Clients */,
-				DAEF96C72B6B970B004AF890 /* ContentView.swift */,
+				DAEF96F82B6B9E8D004AF890 /* Storage */,
 				DAEF96C92B6B970D004AF890 /* Assets.xcassets */,
 				DAEF96CB2B6B970D004AF890 /* Preview Content */,
 			);
@@ -123,7 +142,9 @@
 		DAEF96DA2B6B970E004AF890 /* GithubUsersTests */ = {
 			isa = PBXGroup;
 			children = (
-				DAEF96DB2B6B970E004AF890 /* GithubUsersTests.swift */,
+				DABFDB082B709AA900CD9852 /* AppFeatureTests.swift */,
+				DABFDB0A2B709E4C00CD9852 /* UserListFeatureTests.swift */,
+				DABFDB0C2B70AE7A00CD9852 /* UserDetailsFeatureTests.swift */,
 			);
 			path = GithubUsersTests;
 			sourceTree = "<group>";
@@ -140,10 +161,8 @@
 		DAEF96F72B6B9E82004AF890 /* Clients */ = {
 			isa = PBXGroup;
 			children = (
-				DAEF96C52B6B970B004AF890 /* GithubUsersApp.swift */,
-				DAEF96FA2B6B9EA5004AF890 /* Features */,
-				DAEF96F92B6B9E96004AF890 /* ApiClient */,
-				DAEF96F82B6B9E8D004AF890 /* Storage */,
+				DAEF97032B6BAA28004AF890 /* APIClient.swift */,
+				DAEF97052B6C2AB4004AF890 /* CoreDataClient.swift */,
 			);
 			path = Clients;
 			sourceTree = "<group>";
@@ -151,24 +170,18 @@
 		DAEF96F82B6B9E8D004AF890 /* Storage */ = {
 			isa = PBXGroup;
 			children = (
-				DAEF96CE2B6B970D004AF890 /* Persistence.swift */,
+				DAEF96CE2B6B970D004AF890 /* CoreDataStack.swift */,
 				DAEF96D02B6B970D004AF890 /* GithubUsers.xcdatamodeld */,
 			);
 			path = Storage;
-			sourceTree = "<group>";
-		};
-		DAEF96F92B6B9E96004AF890 /* ApiClient */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ApiClient;
 			sourceTree = "<group>";
 		};
 		DAEF96FA2B6B9EA5004AF890 /* Features */ = {
 			isa = PBXGroup;
 			children = (
 				DAEF96FB2B6B9F10004AF890 /* UserListFeature */,
-				DAEF96FE2B6B9F30004AF890 /* UserDetailsFeature */,
+				DAF6A8AF2B70147F00D47823 /* AppFeature.swift */,
+				DAEF97092B6CF346004AF890 /* UserDetailsFeature.swift */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -176,33 +189,10 @@
 		DAEF96FB2B6B9F10004AF890 /* UserListFeature */ = {
 			isa = PBXGroup;
 			children = (
-				DAEF96FD2B6B9F23004AF890 /* SearchItemFeature */,
-				DAEF96FC2B6B9F1B004AF890 /* SearchFeature */,
 				DAEF96FF2B6B9F63004AF890 /* UserListFeature.swift */,
 				DAEF97012B6B9F70004AF890 /* UserListView.swift */,
 			);
 			path = UserListFeature;
-			sourceTree = "<group>";
-		};
-		DAEF96FC2B6B9F1B004AF890 /* SearchFeature */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SearchFeature;
-			sourceTree = "<group>";
-		};
-		DAEF96FD2B6B9F23004AF890 /* SearchItemFeature */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SearchItemFeature;
-			sourceTree = "<group>";
-		};
-		DAEF96FE2B6B9F30004AF890 /* UserDetailsFeature */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UserDetailsFeature;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +213,8 @@
 			name = GithubUsers;
 			packageProductDependencies = (
 				DAEF96F52B6B9B03004AF890 /* ComposableArchitecture */,
+				DA95F60E2B6D964D00284FC9 /* Alamofire */,
+				DAF6A8AC2B6FAE7700D47823 /* Kingfisher */,
 			);
 			productName = GithubUsers;
 			productReference = DAEF96C22B6B970B004AF890 /* GithubUsers.app */;
@@ -298,6 +290,8 @@
 			mainGroup = DAEF96B92B6B970B004AF890;
 			packageReferences = (
 				DAEF96F42B6B9B02004AF890 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				DA95F60D2B6D964D00284FC9 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				DAF6A8AB2B6FAE7700D47823 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = DAEF96C32B6B970B004AF890 /* Products */;
 			projectDirPath = "";
@@ -341,11 +335,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAEF96CF2B6B970D004AF890 /* Persistence.swift in Sources */,
+				DABFDB072B7098BA00CD9852 /* Models.swift in Sources */,
+				DAF6A8B02B70147F00D47823 /* AppFeature.swift in Sources */,
+				DAEF96CF2B6B970D004AF890 /* CoreDataStack.swift in Sources */,
+				DAEF97062B6C2AB4004AF890 /* CoreDataClient.swift in Sources */,
+				DAEF97042B6BAA28004AF890 /* APIClient.swift in Sources */,
 				DAEF97022B6B9F70004AF890 /* UserListView.swift in Sources */,
 				DAEF97002B6B9F63004AF890 /* UserListFeature.swift in Sources */,
+				DAEF970A2B6CF346004AF890 /* UserDetailsFeature.swift in Sources */,
 				DAEF96D22B6B970D004AF890 /* GithubUsers.xcdatamodeld in Sources */,
-				DAEF96C82B6B970B004AF890 /* ContentView.swift in Sources */,
 				DAEF96C62B6B970B004AF890 /* GithubUsersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,7 +352,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAEF96DC2B6B970E004AF890 /* GithubUsersTests.swift in Sources */,
+				DABFDB092B709AA900CD9852 /* AppFeatureTests.swift in Sources */,
+				DABFDB0D2B70AE7A00CD9852 /* UserDetailsFeatureTests.swift in Sources */,
+				DABFDB0B2B709E4C00CD9852 /* UserListFeatureTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,6 +524,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ymois.GithubUsers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -552,6 +556,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ymois.GithubUsers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -672,6 +680,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		DA95F60D2B6D964D00284FC9 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
 		DAEF96F42B6B9B02004AF890 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
@@ -680,13 +696,31 @@
 				minimumVersion = 1.7.2;
 			};
 		};
+		DAF6A8AB2B6FAE7700D47823 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		DA95F60E2B6D964D00284FC9 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA95F60D2B6D964D00284FC9 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
 		DAEF96F52B6B9B03004AF890 /* ComposableArchitecture */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = DAEF96F42B6B9B02004AF890 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
 			productName = ComposableArchitecture;
+		};
+		DAF6A8AC2B6FAE7700D47823 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAF6A8AB2B6FAE7700D47823 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 
